@@ -19,7 +19,7 @@ RPROVIDES_${PN} = "datatables"
 
 do_install() {
   install -d ${D}/src/htmllib/${DT_NAME}/
-  cp -r ${WORKDIR}/${DT_NAME} ${D}/src/htmllib/
+  cp -rp ${WORKDIR}/${DT_NAME} ${D}/src/htmllib/
 }
 
 PACKAGES = "${PN}"

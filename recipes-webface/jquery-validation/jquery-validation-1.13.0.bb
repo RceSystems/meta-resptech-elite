@@ -7,15 +7,15 @@ LIC_FILES_CHKSUM = "file://${WORKDIR}/LICENSE.md;md5=f683602956cb1dbd6269076b875
 DEPENDS = "jquery"
 
 SRC_URI = "https://files.rce.systems/yocto-elite/jquery-validation-1.13.0.tar.gz"
-SRC_URI[md5sum] = "b3ee773031a98a6475f825303376e935"
-SRC_URI[sha256sum] = "7e2782f7d199aa6c66301c16e8aa948a90bb8596960d33f4c2fa0e50acb35119"
+SRC_URI[md5sum] = "0d65c0f544a95fcb13e56dc0ca557bcd"
+SRC_URI[sha256sum] = "a4215c6bfbed1b1debddababf1c95fefdbca5bff21cb02468112cf8a78e2593d"
 
 PROVIDES += " jquery-validation"
 RPROVIDES_${PN} = "jquery-validation"
 
 do_install() {
   install -d ${D}/src/htmllib/${BPN}/
-  cp -r ${WORKDIR}/${BP} ${D}/src/htmllib/
+  cp -rp ${WORKDIR}/${BPN} ${D}/src/htmllib/
 }
 
 PACKAGES = "${PN}"
