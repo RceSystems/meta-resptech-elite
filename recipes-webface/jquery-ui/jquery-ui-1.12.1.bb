@@ -14,9 +14,9 @@ PROVIDES += " jquery-ui"
 RPROVIDES_${PN} = "jquery-ui"
 
 do_install() {
-  install -d ${D}/src/$BPN/
-  cp -r ${WORKDIR}/${BPN} ${D}/src/$BPN/
+  install -d ${D}/src/htmllib/${BPN}/
+  cp -r ${WORKDIR}/${BPN} ${D}/src/htmllib/${BPN}/
 }
 
 PACKAGES = "${PN}"
-FILES_${PN} = "/src /src/$BPN/*"
+FILES_${PN} = "/src /src/htmllib /src/htmllib/${BPN}/*"
