@@ -11,8 +11,8 @@ NO_GENERIC_LICENSE[DataTables_Custom] = "${DT_LICENSE_LONG}"
 DEPENDS = "jquery"
 
 SRC_URI = "https://files.rce.systems/yocto-elite/datatables_1.10.19.tar.gz"
-SRC_URI[md5sum] = "9fa02017af2c27e8d08b2d6cc669458a"
-SRC_URI[sha256sum] = "3b655169cbe4184c8beb89446fe84b9acdb2168a77b8f9f0ff54b819df60d90b"
+SRC_URI[md5sum] = "f36622229228d1ac0e4b0d145e118075"
+SRC_URI[sha256sum] = "2421f7203b8b4b0cae8454d1fc59e97de864766d38093fbb3d55f92e5ee32cd1"
 
 PROVIDES += " datatables"
 RPROVIDES_${PN} = "datatables"
