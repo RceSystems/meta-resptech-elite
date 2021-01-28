@@ -4,7 +4,7 @@ HOMEPAGE = "https://jqueryui.com"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${WORKDIR}/${BPN}/LICENSE.txt;md5=e0c0d3d883e83f19efa64feb54d5f63d"
 
-DEPENDS = "jquery"
+DEPENDS = "jquery lighttpduser"
 
 SRC_URI = "https://files.rce.systems/yocto-elite/jquery-ui-1.12.1.tar.gz"
 SRC_URI[md5sum] = "674ba7f6406571446085eac3fd4c5e27"
