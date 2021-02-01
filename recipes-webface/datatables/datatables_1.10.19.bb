@@ -8,7 +8,7 @@ LICENSE = "DataTables_Custom"
 LIC_FILES_CHKSUM = "file://${DT_LICENSE_LONG};md5=0f09bcd3a7ccda673b31aabd84bf8341"
 NO_GENERIC_LICENSE[DataTables_Custom] = "${DT_LICENSE_LONG}"
 
-DEPENDS = "jquery lighttpduser"
+DEPENDS = "jquery"
 
 SRC_URI = "https://files.rce.systems/yocto-elite/datatables_1.10.19.tar.gz"
 SRC_URI[md5sum] = "f36622229228d1ac0e4b0d145e118075"

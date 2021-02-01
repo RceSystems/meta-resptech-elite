@@ -2,9 +2,9 @@ SUMMARY = "This jQuery plugin makes simple clientside form validation easy"
 HOMEPAGE = "https://jqueryvalidation.org/"
 
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://${WORKDIR}/LICENSE.md;md5=f683602956cb1dbd6269076b875f7aba"
+LIC_FILES_CHKSUM = "file://${WORKDIR}/${BPN}/LICENSE.md;md5=f683602956cb1dbd6269076b875f7aba"
 
-DEPENDS = "jquery lighttpduser"
+DEPENDS = "jquery"
 
 SRC_URI = "https://files.rce.systems/yocto-elite/jquery-validation-1.13.0.tar.gz"
 SRC_URI[md5sum] = "0d65c0f544a95fcb13e56dc0ca557bcd"
