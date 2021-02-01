@@ -1,9 +1,0 @@
-IMAGE_INSTALL_append = " lighttpd-module-access lighttpd-module-expire lighttpd-module-fastcgi"
-
-inherit useradd
-
-USERADD_PACKAGES = "${PN}"
-
-GROUPADD_PARAM_${PN} = "centurion"
-
-USERADD_PARAM_${PN} = "--user-group -G centurion -M lighttpd"
